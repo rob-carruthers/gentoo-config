@@ -2,4 +2,5 @@
 sys-block/io-scheduler-udev-rules
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
+sys-power/acpi
 sys-process/htop[lm-sensors]
