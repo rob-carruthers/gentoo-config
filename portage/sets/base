@@ -1,0 +1,12 @@
+app-admin/sudo
+app-admin/sysklogd
+app-editors/helix
+app-eselect/eselect-repository
+app-portage/eix
+app-shells/bash-completion
+dev-vcs/lazygit
+net-misc/chrony
+net-misc/networkmanager
+sys-kernel/gentoo-kernel-bin
+sys-kernel/linux-firmware
+sys-process/htop
