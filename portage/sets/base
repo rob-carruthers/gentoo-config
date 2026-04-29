@@ -2,6 +2,7 @@ app-admin/sudo
 app-admin/sysklogd
 app-editors/helix
 app-eselect/eselect-repository
+app-misc/tmux
 app-portage/eix
 app-shells/bash-completion
 dev-vcs/lazygit
