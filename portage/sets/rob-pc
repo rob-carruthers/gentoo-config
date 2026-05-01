@@ -1,5 +1,7 @@
 @base
 @mango-desktop
+media-sound/mpc
+media-sound/mpd
 sys-block/io-scheduler-udev-rules
 sys-fs/btrfs-progs
 sys-process/htop[lm-sensors]
