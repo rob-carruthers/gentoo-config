@@ -32,3 +32,11 @@ auto-sync = no
 - Use an existing host/set in this repo, or copy/paste/adjust to a new host.
 - `sudo deploy.sh` to set symlinks up in `/etc/portage`.
 - `emerge -NuaDv world @${HOSTNAME}` to install sets configured for the host.
+
+## Post-setup notes
+
+### Noto fonts
+
+Emoji support is enabled with the following:
+
+```eselect fontconfig enable 75-noto-emoji-fallback.conf```
