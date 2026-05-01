@@ -13,6 +13,18 @@ When it comes to updating the base set, do the following:
 - `eselect repository enable guru`, as we use `chezmoi`.
 - `emaint sync -r guru` to sync the GURU repo.
 
+#### Local overlay in this repo
+
+- Symlink `overlays/local` to `/var/db/repos/local`
+- Add the below to /etc/portage/repos.conf:
+
+```
+[local]
+location = /var/db/repos/local
+masters = gentoo
+auto-sync = no
+```
+
 ### Deployment
 
 - Clone this repo to a directory of choice. You may want to create a user first.
