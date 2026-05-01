@@ -1,4 +1,5 @@
 @base
+@mango-desktop
 sys-block/io-scheduler-udev-rules
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
