@@ -10,6 +10,7 @@ app-shells/bash-completion
 dev-vcs/lazygit
 net-misc/chrony
 net-misc/networkmanager
+sys-apps/ripgrep
 sys-fs/ncdu-bin
 sys-kernel/gentoo-kernel-bin
 sys-kernel/linux-firmware
