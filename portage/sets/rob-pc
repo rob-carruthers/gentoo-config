@@ -1,0 +1,6 @@
+@base
+@mango-desktop
+sys-block/io-scheduler-udev-rules
+sys-fs/btrfs-progs
+sys-process/htop[lm-sensors]
+x11-drivers/nvidia-drivers
