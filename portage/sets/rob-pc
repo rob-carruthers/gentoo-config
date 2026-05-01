@@ -1,5 +1,6 @@
 @base
 @mango-desktop
+app-misc/ddcutil
 media-sound/mpc
 media-sound/mpd
 sys-block/io-scheduler-udev-rules
