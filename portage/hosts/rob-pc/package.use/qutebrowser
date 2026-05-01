@@ -1,0 +1,4 @@
+dev-libs/libxml2 icu
+dev-python/pyqt6 qml webchannel
+dev-qt/qtbase icu
+sys-libs/minizip-ng compat
