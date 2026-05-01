@@ -1,3 +1,4 @@
 @wayland-apps
 gui-wm/mangowm
+media-fonts/nerdfonts[jetbrainsmono]
 x11-misc/pcmanfm-qt
