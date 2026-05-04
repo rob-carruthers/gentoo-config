@@ -1,6 +1,7 @@
 @base
 @mango-desktop
 app-misc/ddcutil
+app-misc/zellij
 dev-util/ch57x-keyboard-tool
 media-sound/mpc
 media-sound/mpd
