@@ -1,5 +1,6 @@
 @base
 @mango-desktop
+app-misc/brightnessctl
 sys-block/io-scheduler-udev-rules
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
