@@ -3,6 +3,7 @@
 app-misc/ddcutil
 app-misc/zellij
 dev-util/ch57x-keyboard-tool
+media-sound/ario
 media-sound/mpc
 media-sound/mpd
 sys-block/io-scheduler-udev-rules
