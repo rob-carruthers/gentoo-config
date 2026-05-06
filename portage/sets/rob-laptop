@@ -1,6 +1,12 @@
 @base
 @mango-desktop
 app-misc/brightnessctl
+
+# needed for legion-kb-rgb
+media-libs/gstreamer
+media-libs/gst-plugins-base
+dev-libs/libusb
+
 sys-block/io-scheduler-udev-rules
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
