@@ -1,4 +1,5 @@
 gui-apps/foot
+gui-apps/waybar
 gui-apps/wl-clipboard
 gui-apps/wofi
 media-sound/pavucontrol
