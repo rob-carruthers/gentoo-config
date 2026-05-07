@@ -1,6 +1,9 @@
 gui-apps/foot
+gui-apps/gtklock
+gui-apps/swayidle
 gui-apps/waybar
 gui-apps/wl-clipboard
+gui-apps/wlopm
 gui-apps/wofi
 media-sound/pavucontrol
 www-client/firefox-bin
