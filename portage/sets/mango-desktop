@@ -1,4 +1,5 @@
 @fonts
+@printing
 @qt
 @wayland-apps
 gui-wm/mangowm
