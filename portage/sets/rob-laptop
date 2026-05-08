@@ -9,6 +9,7 @@ dev-libs/libusb
 
 media-sound/pulsemixer
 sys-block/io-scheduler-udev-rules
+sys-boot/limine
 sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-power/acpi
