@@ -1,4 +1,5 @@
 @base
+@games
 @mango-desktop
 @python-dev
 app-misc/brightnessctl
