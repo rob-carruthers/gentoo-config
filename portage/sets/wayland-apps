@@ -7,5 +7,6 @@ gui-apps/wlopm
 gui-apps/wofi
 media-sound/musescore
 media-sound/pavucontrol
+net-p2p/syncthingtray
 www-client/firefox-bin
 www-client/qutebrowser

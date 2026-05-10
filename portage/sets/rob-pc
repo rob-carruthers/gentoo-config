@@ -8,6 +8,7 @@ media-sound/ario
 media-sound/mpc
 media-sound/mpd
 media-sound/pulsemixer
+net-p2p/syncthing
 sys-block/io-scheduler-udev-rules
 sys-boot/limine
 sys-fs/btrfs-progs

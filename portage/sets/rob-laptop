@@ -10,6 +10,7 @@ media-libs/gst-plugins-base
 dev-libs/libusb
 
 media-sound/pulsemixer
+net-p2p/syncthing
 sys-block/io-scheduler-udev-rules
 sys-boot/limine
 sys-fs/btrfs-progs
