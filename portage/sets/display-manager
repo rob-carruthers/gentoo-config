@@ -1,0 +1,5 @@
+gui-apps/ReGreet
+gui-libs/display-manager-init
+gui-libs/greetd
+gui-wm/cage
+sys-auth/seatd
