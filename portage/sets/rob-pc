@@ -2,6 +2,7 @@
 @display-manager
 @games
 @mango-desktop
+@python-dev
 app-misc/ddcutil
 app-misc/zellij
 dev-util/ch57x-keyboard-tool
