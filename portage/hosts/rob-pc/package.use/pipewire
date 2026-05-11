@@ -1,1 +1,1 @@
-media-video/pipewire jack-sdk pipewire-alsa sound-server
+../../../common/gui/package.use/pipewire
