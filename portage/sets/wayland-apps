@@ -9,5 +9,6 @@ media-sound/musescore
 media-sound/pavucontrol
 net-p2p/dogecoin-qt
 net-p2p/syncthingtray
+net-wireless/blueman
 www-client/firefox-bin
 www-client/qutebrowser
