@@ -21,6 +21,10 @@ for target in \
     "$PORTAGE/package.accept_keywords/host" \
     "$PORTAGE/package.mask/base" \
     "$PORTAGE/package.mask/host" \
+    "$PORTAGE/package.env/base" \
+    "$PORTAGE/package.env/host" \
+    "$PORTAGE/env/base" \
+    "$PORTAGE/env/host" \
     "$PORTAGE/savedconfig/base" \
     "$PORTAGE/savedconfig/host" \
     "$PORTAGE/sets"; do
@@ -31,19 +35,27 @@ done
 for dir in \
     "$PORTAGE/package.use" \
     "$PORTAGE/package.accept_keywords" \
-    "$PORTAGE/package.mask"; do
+    "$PORTAGE/package.mask" \
+    "$PORTAGE/package.env" \
+    "$PORTAGE/env"; do
     mkdir -p "$dir"
 done
 
 # Symlink base and host subdirs into each package.* dir
 # Portage recurses into subdirectories automatically, so both
 # base/ and host/ entries are read without any further sourcing
-for category in package.use package.accept_keywords package.mask; do
+for category in package.use package.accept_keywords package.mask package.env; do
     [[ -d "$REPO_DIR/base/$category" ]] && \
         ln -sf "$REPO_DIR/base/$category" "$PORTAGE/$category/base"
     [[ -d "$REPO_DIR/hosts/$GENTOO_HOST/$category" ]] && \
         ln -sf "$REPO_DIR/hosts/$GENTOO_HOST/$category" "$PORTAGE/$category/host"
 done
+
+[[ -d "$REPO_DIR/base/env" ]] && \
+    ln -sfn "$REPO_DIR/base/env" "$PORTAGE/env/base"
+
+[[ -d "$REPO_DIR/hosts/$GENTOO_HOST/env" ]] && \
+    ln -sfn "$REPO_DIR/hosts/$GENTOO_HOST/env" "$PORTAGE/env/host"
 
 [[ -L "$PORTAGE/savedconfig" ]] && rm "$PORTAGE/savedconfig"
 ln -sf "$REPO_DIR/hosts/$GENTOO_HOST/savedconfig" "$PORTAGE/savedconfig"
